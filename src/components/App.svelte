@@ -8,15 +8,15 @@
 
 	let profile: IProfileResp;
 
-	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
 		projects = [],
 		technologies = [],
 		workExperiences = [],
 		educations = [],
+		certificates = [],
 		interests = [],
-		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
+		resumeUrl: { sourceLink = ''} = {}
 	} = profile || {});
 
 	onMount(async () => (profile = await fetchResumeProfile()));
@@ -42,8 +42,7 @@
 		on print.
 	</p>
 	<p>You can click at any sections or lines hide some information before printing.</p>
-	<a href={sourceLink} target="_blank" rel="noopener">[Source]</a>
-	<a href={dataLink} target="_blank" rel="noopener">[Data]</a>
+	<a href={sourceLink} target="_blank" rel="noopener">[Original Source]</a>
 </header>
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
@@ -117,6 +116,23 @@
 
 	<section>
 		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Certificates of Completion and Training</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each certificates as certificate}
+					<Hideable>
+						<li>
+							{certificate}
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
 			<hr />
 
@@ -131,11 +147,6 @@
 			</ul>
 		</Hideable>
 	</section>
-
-	<footer class="print-only">
-		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
-		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-	</footer>
 </main>
 
 <style lang="postcss">

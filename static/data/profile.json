@@ -1,200 +1,159 @@
 {
 	"intro": {
-		"name": "Manassarn Manoonchai",
-		"nickname": "Noom",
-		"phone": "",
-		"email": "manassarn@gmail.com",
-		"github": "narze",
-		"linkedin": "manassarn",
+		"name": "Suphadet Vatjanajaroenrat",
+		"nickname": "Boss",
+		"phone": "+66972246931",
+		"email": "suphadet.b@gmail.com",
+		"github": "darking2539",
+		"linkedin": "suphadet",
 		"location": "Bangkok, Thailand",
-		"website": "narze.live"
+		"website": "narze.live",
+		"introduction": "I am currently a software engineer at LINE BK, specializing in web development both frontend and backend. I have hands-on experience with DevOps, specifically in implementing CI/CD processes to automate deployment and unit testing within the pipeline. Additionally, I am experienced with containerization technologies such as Docker and Kubernetes."
 	},
-	"projects": [
-		{
-			"name": "ChatOS",
-			"details": "Hackable chatbot web application",
-			"url": "chat.narze.live",
-			"hide": false
-		},
-		{
-			"name": "Digital Garden",
-			"details": "My notes & stuff (Second Brain)",
-			"url": "garden.narze.live",
-			"hide": false
-		},
-		{
-			"name": "Manoonchai",
-			"details": "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-			"url": "manoonchai.com",
-			"hide": false
-		},
-		{
-			"name": "Dotfiles",
-			"details": "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-			"url": "github.com/narze/dotfiles",
-			"hide": false
-		},
-		{
-			"name": "Resumette",
-			"details": "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-			"url": "resume.narze.live",
-			"hide": false
-		},
-		{
-			"name": "Thwordle",
-			"details": "Thai language Wordle clone.",
-			"url": "thwordle.narze.live",
-			"hide": false
-		},
-		{
-			"name": "9armbot (Contributor)",
-			"details": "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-			"url": "github.com/thananon/twitch_tools",
-			"hide": true
-		},
-		{
-			"name": "#100DaysOfCode",
-			"details": "My take on practicing modern frontend development by building small projects in 100 days",
-			"url": "100daysofcode-narze.vercel.app",
-			"hide": true
-		},
-		{
-			"name": "Baht.rb",
-			"details": "Ruby gem to convert number to Thai Baht format",
-			"url": "rubygems.org/gems/baht",
-			"hide": true
-		},
-		{
-			"name": "Baht.js",
-			"details": "Convert number to Thai Baht format, but 10x faster & fully typed.",
-			"url": "npmjs.com/package/baht",
-			"hide": true
-		},
-		{
-			"name": "Popyut",
-			"details": "Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week",
-			"url": "github.com/popyut/popyut",
-			"hide": true
-		},
-		{
-			"name": "Resound",
-			"details": "Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.",
-			"url": "github.com/narze/resound",
-			"hide": true
-		}
-	],
 	"technologies": [
 		{
-			"section": "Languages:",
-			"details": "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient)."
+			"section": "Frontend:",
+			"details": "React, Typescript, CSS, Tailwind, MUI"
 		},
 		{
-			"section": "Frameworks:",
-			"details": "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap"
+			"section": "Backend:",
+			"details": "Golang, Springboot, Node, Express"
+		},
+		{
+			"section": "Databased",
+			"details": "MongoDB, RDBMS, DynamoDB, Elasticsearch, Redis"
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces"
+			"details": "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, Zsh"
 		},
 		{
 			"section": "Other:",
-			"details": "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare"
-		}
-	],
-	"workExperiences": [
-		{
-			"position": "Lead Software Engineer",
-			"company": "EVP Corporation (formerly EventPop)",
-			"url": "https://eventpop.me",
-			"years": ["2023", "Current"],
-			"details": [
-				"Developed ticket resale platform for EventPop within 1 month",
-				"Upgraded ticketing system with Dual-boot methodology with zero downtime",
-				"Introduced Consumer Driven Contract Testing to the development team using Pact"
-			]
-		},
-		{
-			"position": "Senior Infrastructure Software Engineer",
-			"company": "OPN TH (formerly Omise)",
-			"url": "https://opn.ooo/",
-			"years": ["2021", "2023"],
-			"details": [
-				"Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm",
-				"Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store",
-				"Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt",
-				"Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.",
-				"Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store"
-			]
-		},
-		{
-			"position": "Full-stack Developer, Co-founder",
-			"company": "EventPop (acquired by OPN TH in 2021, divested in 2023)",
-			"url": "https://eventpop.me",
-			"years": ["2015", "2021"],
-			"details": [
-				"Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years",
-				"Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform",
-				"Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.",
-				"Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale",
-				"Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB",
-				"Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges"
-			]
-		},
-		{
-			"position": "Maker, Co-founder",
-			"company": "Maker Zoo",
-			"url": "https://fb.me/makerzoo",
-			"years": ["2014", "2016"],
-			"details": [
-				"Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand",
-				"Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.",
-				"Developed hardware-related products for 3-5 clients and startups",
-				"Developed smart door lock system for Hubba, first co-working space in Bangkok",
-				"Provided 3D-printing service & consultant to more than 50 clients",
-				"Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand"
-			]
-		},
-		{
-			"position": "Web / IoT Developer (Contract)",
-			"company": "Box24",
-			"url": "https://washbox24.com",
-			"years": ["2015", "2016"],
-			"details": [
-				"Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-				"Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment"
-			]
-		},
-		{
-			"position": "Web Developer",
-			"company": "Figabyte",
-			"url": "https://www.facebook.com/figabyte",
-			"years": ["2011", "2014"],
-			"details": [
-				"Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API",
-				"Developed web platform using Ruby on Rails 3 & 4",
-				"Made iOS apps for several clients using PhoneGap and RubyMotion"
-			]
-		},
-		{
-			"position": "Part-time Web Developer",
-			"company": "Wongnai Media (wongnai.com)",
-			"url": "https://wongnai.com",
-			"years": ["2010"],
-			"details": [
-				"Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-				"Learned TDD practice & making early-stage startup"
-			]
+			"details": "AWS, GCP, Vercel, DigitalOcean, Huawei Cloud, Sentry, Grafana, Kafka"
 		}
 	],
 	"educations": [
 		{
-			"head": "B.Eng. Computer Engineering",
-			"details": "Chulalongkorn University, TH. 2007-2010 (GPA 3.40)"
+			"head": "B.Eng. Electrical Engineering",
+			"details": "Chulalongkorn University, TH. 2016-2019 (GPAX 3.06)"
 		}
 	],
+	"workExperiences": [
+		{
+			"position": "Technical Lead",
+			"company": "KASIKORN LINE Co., Ltd.",
+			"years": ["MAR 2025", "PRESENT"],
+			"details": [
+				"Reviewed and guided junior software engineers to ensure quality code.",
+				"Initiated company documentation and knowledge sharing with docusaurus.",
+				"Designed technical solutions and architecture to meet business requirements."
+			]
+		},
+		{
+			"position": "Software Engineer",
+			"company": "KASIKORN LINE Co., Ltd.",
+			"years": ["OCT 2023", "MAR 2025"],
+			"details": [
+				"Led the development and design IT solution of a new UI solution for the LINE BK onboarding process by enhancing and refactoring the existing codebase.",
+				"Developed, maintained, and designed backend systems with Java Springboot that were handed over by another team to implement new features based on business requirements.",
+				"Implemented improvements to go-modules libraries for internal use."
+			]
+		},
+		{
+			"position": "Golang Developer",
+			"company": "True Corporation Co., Ltd. (Contract)",
+			"years": ["NOV 2022", "OCT 2023"],
+			"details": [
+				"Developed and optimized backend for an internal sales platform using Go, integrating lat/long coordination with MongoDB for geolocation features.",
+				"Implemented batch processing for report generation using Go and MongoDB, utilizing goroutines to enable concurrent execution and improve performance.",	
+				"Migrated CI/CD pipeline from Jenkins to GitLab CI and Argo CD, aligning with standards provided by the platform team.",
+				"Maintained and initiated migration of legacy drag-and-drop based services, used for campaign requirements, to Go-based services."
+			]
+		},
+		{
+			"position": "Full Stack Engineer",
+			"company": "Gosoft (Thailand) Co., Ltd.",
+			"years": ["FEB 2022", "OCT 2022"],
+			"details": [
+				"Developed both backend and frontend in an AWS environment for a webview service integrated into the company's mobile application, fetching data from PeopleSoft and K2 systems to support features such as payslip viewing and organization chart display.",
+				"Implemented a service using Go to encrypt and decrypt files stored in an S3 bucket, providing a secure file storage solution for internal teams."
+			]
+		},
+		{
+			"position": "Research & Development Engineer",
+			"company": "TKC Services Co., Ltd.",
+			"years": ["JULY 2019", "JAN 2022"],
+			"details": [
+				"Researched and designed innovative IoT solutions for customers (Pre-sale), including both hardware and software components.",
+				"Developed proof of concept (PoC) projects using MQTT protocol, Node.js servers, Raspberry Pi, and ESP32 devices.",
+				"Programmed microcontrollers using Arduino IDE and PlatformIO to deliver efficient embedded system solutions."
+			]
+		}
+	],
+	"projects": [
+		{
+			"name": "Pokemon web application",
+			"details": "Displays Pokémon data and information using Next.js, TypeScript, and Tailwind CSS.",
+			"url": "pkm.abosszz.com",
+			"hide": false
+		},
+		{
+			"name": "Pantip X Airbnb",
+			"details": "Redesign landing pantip website page to be airbnb theme.",
+			"url": "pantip-x-airbnb.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Storybook POC",
+			"details": "Proof of Concept (POC) using Storybook in a single-page web application.",
+			"url": "saas-landing-storybook.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Frontend challenge (Interactive Card details)",
+			"details": "Credit card details form using React, TypeScript, and Tailwind CSS.",
+			"url": "interactive-card-details-form-frontend-challenge.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Frontend challenge (News Homepage)",
+			"details": "News landing page using React, TypeScript, and Tailwind CSS.",
+			"url": "news-homepage-frontend-challenge.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Frontend challenge (Tracking dashboard)",
+			"details": "Tracking routine dashboard using React, TypeScript, and Tailwind CSS.",
+			"url": "tracking-dashboard-frontend-challenge.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Frontend challenge (Result summary)",
+			"details": "Create result summary components using React, TypeScript, and Tailwind CSS.",
+			"url": "results-summary-comoponent-frontend-challenge.vercel.app",
+			"hide": false
+		},
+		{
+			"name": "Game Project",
+			"details": "Enhanced existing game project to create a new online battle.",
+			"url": "game.abosszz.com",
+			"hide": false
+		}
+	],
+	"certificates": [
+		"Intro to Product management, Skooldio (2025)",
+		"Cybersecurity Fundamentals, Skooldio (2024)",
+		"How to Become a Better Programmer, Skooldio (2024)",
+		"Purpose-build Database, Skooldio (2023)",
+		"AWS Cloud Quest: Cloud Practitioner (2023)",
+		"Developing on AWS with AWS JAM (2022)",
+		"DevSecOps Series, Skooldio (2021)",
+		"Data Analytics Bootcamp, Skooldio (2021)",
+		"React.js + Material Design Programming, CodeMobiles (2021)"
+	],
 	"interests": [
-		"Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-		"Typing : 120+ words per minute (Colemak Mod-DH layout)"
+		"Lifestyle: Badminton, Games, Manga, Manhwa, Anime, Movies",
+		"Technology: Smarthome, Smartfarm, Homeassistant"
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/narze/resume",

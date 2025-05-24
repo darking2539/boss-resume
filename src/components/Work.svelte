@@ -3,19 +3,17 @@
 
 	export let position: string = '';
 	export let company: string = '';
-	export let url: string = '';
 	export let years: string[] = [];
 	export let details: string[] = [];
 </script>
 
 <div class="work-experience">
 	<Hideable>
-		<div class="flex font-bold mb-2 print:mb-1">
-			<div class="flex-1 text-left">{position}</div>
-			<div class="flex-0">
-				<a href={url} target="_blank" rel="noreferrer">{company}</a>
+		<div class="flex mb-2 print:mb-1">
+			<div class="flex-1 text-left">
+				<span class="font-bold">{position}</span> - {company}
 			</div>
-			<div class="flex-1 text-right">{years.join('-')}</div>
+			<div class="flex-1 text-right font-bold">{years.join('-')}</div>
 		</div>
 		<ul class="text-left list-disc pl-8 print:pl-6">
 			{#each details as detail}
